@@ -2,15 +2,16 @@ import React from 'react'
 import Footer from './Footer'
 import AddTodo from '../containers/AddTodo'
 import VisibleTodoList from '../containers/VisibleTodoList'
-import {Example} from './todolist_pure'
+import {ExampleState} from './ExampleState'
 
 const App = () => (
-  <div>
-  <Example/>
-    <AddTodo />
-    <VisibleTodoList />
-    <Footer />
-  </div>
+    <div>
+        <ExampleState/>
+        <hr/>
+        <AddTodo/>
+        <VisibleTodoList/>
+        <Footer/>
+    </div>
 )
 
 export default App
